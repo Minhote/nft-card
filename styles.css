@@ -1,0 +1,93 @@
+:root{
+    /*Primary Colors*/
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    /*Neutral*/
+    --main-very-dark-blue: hsl(217, 54%, 11%);
+    --card-very-dark-blue: hsl(216, 50%, 16%);
+    --line-very-dark-blue: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--main-very-dark-blue);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 80%;
+    max-width: 300px;
+    background-color: var(--card-very-dark-blue);
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    height: 80vh;
+}
+.img-container{
+    height: 50%;
+}
+.img-container img{
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+}
+.title{
+    color: var(--white);
+    font-size: 2rem;
+    margin: 10px 0;
+}
+.description{
+    font-size: 1.6rem;
+    color: var(--line-very-dark-blue);
+    font-weight: 400;
+    margin: 20px 0;
+}
+.extra-details{
+    display: flex;
+    justify-content: space-between;
+}
+.extra-details-price{
+    display: flex;
+    align-items: center;
+}
+.extra-details-price p{
+    color: var(--cyan);
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+.extra-details-days{
+    display: flex;
+    align-items: center;
+}
+.extra-details-days p{
+    color: gray;
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+.creator{
+    display: flex;
+    align-items: center;
+}
+.creator img{
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 40px;
+}
+.creator p{
+    font-size: 1.6rem;
+    color: gray;
+    margin-left: 10px;
+}
+.creator p span{
+    color: white;
+}
