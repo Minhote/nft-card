@@ -10,8 +10,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [My process]
   - [Built with]
 - [Author]
-- [Acknowledgments]
-
 
 ## Overview
 
