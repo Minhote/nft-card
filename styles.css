@@ -35,11 +35,26 @@ main{
 }
 .img-container{
     height: 50%;
+    position: relative;
 }
 .img-container img{
     width: 100%;
     border-radius: 20px;
     height: 100%;
+}
+.img-container .view{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--cyan);
+    opacity: 0.3;
+    padding: 90px;
+    display: none;
+}
+.img-container:hover .view{
+    display: block;
 }
 .title{
     color: var(--white);
@@ -51,6 +66,9 @@ main{
     color: var(--line-very-dark-blue);
     font-weight: 400;
     margin: 20px 0;
+}
+.title:hover{
+    color: var(--cyan);
 }
 .extra-details{
     display: flex;
@@ -74,6 +92,9 @@ main{
     margin-left: 10px;
     font-size: 1.5rem;
 }
+hr{
+    margin: 20px 1px;
+}
 .creator{
     display: flex;
     align-items: center;
@@ -90,4 +111,7 @@ main{
 }
 .creator p span{
     color: white;
+}
+.creator p span:hover{
+    color: var(--cyan)
 }
